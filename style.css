@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap");
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #faa4bd;
+  color: #333;
+}
+header {
+  background-color: #f564a9;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  font-family: Kantumruy Pro;
+}
+.menu {
+  max-width: 800px;
+  margin: 2rem auto;
+  background: #fae3c6;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.menu-section {
+  margin-bottom: 2rem;
+}
+.menu-section h2 {
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  color: #3498db;
+}
+.menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+font-family: Kantumruy Pro;
+  flex-direction: row;
+}
+.menu-item img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 1rem;
+}
+.menu-details {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+.menu-details-price 
+  display: flex;
+  
+
+@media (max-width: 600px) {
+  .menu-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .menu-details {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .menu-item img {
+    margin-bottom: 0.5rem;
+  }
+}
